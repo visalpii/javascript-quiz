@@ -1,0 +1,96 @@
+body  {
+	font-family: 'Nunito', sans-serif;
+}
+
+#body {
+	background-color: tomato;
+}
+
+
+#title-area h1 {
+	font-family: 'Shrikhand', cursive;
+	text-shadow: 2px 2px 1px rgba(0,0,0,0.2);
+}
+
+#quiz-area {
+	width: 50%;
+	margin:  20px auto;
+	padding: 30px;
+	background-color: rgba(255,255,255,0.5);
+	border-radius: 20px;
+}
+
+#question-area {
+	background-color: rgba(255,255,255, 0.7);
+	padding: 20px 20px;
+	border-radius: 10px;
+}
+
+#answer-area {
+	margin-top: 50px;
+	margin-left: 40px;
+}
+
+#answer-area label {
+	width: 40%;
+	margin: 20px 20px;
+}
+
+#answer-area span {
+	display: inline-block;
+	padding-top: 1.5rem;
+	height: 3rem;
+	font-size: 0.9rem;
+}
+
+.option{
+	background-color: rgba(255,255,255, 0.7);
+	display: inline-block;
+	width: 100%;	
+	border-radius: 15px;
+	transition: background 0.8s ease;
+}
+
+.option:hover {
+	background-color: teal;
+	color: white;
+}
+
+.option:target {
+	background-color: teal;
+	color: white;
+}
+
+#button-area {
+	margin-top: 20px;
+}
+
+button{
+	border: none;
+	outline: none;
+	background-color: rgba(255,255,255, 0.7);
+	line-height: 4rem;
+	width: 100%;
+	font-family: 'Nunito', sans-serif;
+	font-size: 1.5rem;
+	transition: background 0.8s ease;
+}
+
+button:hover {
+	background-color: teal;
+	color: white;
+}
+
+
+
+.centered {
+	text-align: center;
+}
+
+#final-area {
+	width: 50%;
+	margin:  200px auto;
+	padding: 30px;
+	background-color: rgba(255,255,255,0.5);
+	border-radius: 20px;
+}

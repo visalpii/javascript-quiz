@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JS QUIZ</title>
+	<link rel="stylesheet" href="styles.css">
+	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+	<link href="https://fonts.googleapis.com/css?family=Nunito|Shrikhand" rel="stylesheet">
+</head>
+<body id="body">
+	<div id="quiz-area">
+		<div id="title-area" class="centered"><h1>The Ultimate Quiz</h1></div>
+		<div id="question-area" class="centered"></div>
+		<div id="answer-area" class="">
+			<label class="option"><input id="inp" type="radio" name="option" value="1"><span id="opt1"></span></label>
+			<label class="option"><input id="inp" type="radio" name="option" value="2"><span id="opt2"></span></label> 
+			<label class="option"><input id="inp" type="radio" name="option" value="3"><span id="opt3"></span></label>
+			<label class="option"><input id="inp" type="radio" name="option" value="4"><span id="opt4"></span></label>
+		</div>
+		<div id="button-area" class="centered">
+			<button id="button" onclick="loadNextQuestion();">Next</button>
+		</div>
+	</div>
+
+	<div id="final-area" style="display: none;"></div>
+
+
+
+<script type="text/javascript" src="questions.js"></script>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
